@@ -18,10 +18,7 @@ Prémier Branche est: MAIN {</br>
                                       - Refonte de tous le css avec le SASS;<br>
                                       ]<br>
  --------> Plusieurs commits pour ameliorer et corriger les bug.<br>
- ---------------------------------------------------------------------<br>
- >>>>>>>>>>>>>>>>>>>>>>>>>>To Do<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<br>
- >>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<br>
- ---------------------------------------------------------------------<br>
+ To Do
 >>>> Correction des bug et amelioration du loader et mise a jour du SASS pour générer le CSS<br>
  >>>>>Attendre les suggestion du Mentor pour corrigé les codes<br>
  >>>>>Préparation du Soutenance avec diapo.<br>
