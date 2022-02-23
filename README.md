@@ -21,5 +21,6 @@ Prémier Branche est: MAIN {</br>
  To Do
 >>>> Correction des bug et amelioration du loader et mise a jour du SASS pour générer le CSS<br>
  >>>>>Attendre les suggestion du Mentor pour corrigé les codes<br>
- >>>>>Préparation du Soutenance avec diapo.<br></br>
+ >>>>>Préparation du Soutenance avec diapo.<br>
+ To Do
 Application en ligne sur : https://vianey-jean.github.io/P03_Ohmyfood/
