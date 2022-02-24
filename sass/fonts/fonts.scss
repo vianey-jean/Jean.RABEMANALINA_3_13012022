@@ -1,0 +1,42 @@
+// ***********************************************************************************************
+//                              @import GOOGLE FONTS
+// ***********************************************************************************************
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+
+
+
+// ***********************************************************************************************
+//                              @import Déclaration Icônes Font Awesome
+// ***********************************************************************************************
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+
+// ***********************************************************************************************
+//                             Déclarations générales
+// ***********************************************************************************************
+
+body {
+    // résolution Full HD maxi
+    max-width: 1920px;
+    // marges latérales sur auto pour centrer la page
+    // sur des résolutions supérieures au Full HD
+    margin: 0px auto;
+}
+
+main {
+    // flex-grow: 1;
+    margin: 0px auto;
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+}
+
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}

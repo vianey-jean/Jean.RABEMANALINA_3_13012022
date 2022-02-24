@@ -1,0 +1,103 @@
+// ***********************************************************************************************
+//                                  BOUTON .gradient
+// - dans index.html : "Explorez nos restaurants" 
+// - dans lapalettedugout.html - lanoteenchantee.html - alafrançaise.html - ledelicedessens.html :
+// "Commander" : 
+// ***********************************************************************************************
+
+.gradient {  
+        box-sizing: content-box;      
+        padding: 15px;
+        margin: 0px auto;
+        color: $white;
+        font-weight: 500;
+        border-radius: 30px; 
+        background: linear-gradient(170deg, $secondary, $primary);
+        box-shadow: 2px 2px 3px $grey-place-shdw;
+        transform: scale(1);
+        transition: all ease-in-out 400ms;
+        &:hover {
+            transform: scale(1.01);
+            background: linear-gradient(170deg, lighten($secondary, 4%), lighten($primary, 4%));
+            box-shadow: -1px -1px 6px $grey-icon, 2px 2px 3px $grey-icon;
+        }        
+    }    
+
+
+
+// ***********************************************************************************************
+//                                  BOUTON .functionning__button
+// - dans index.html / <section class="list-menus"> 
+// - dans lapalettedugout.html - lanoteenchantee.html - alafrançaise.html - ledelicedessens.html / 
+// <div class="page__restaurant">
+// ***********************************************************************************************
+
+.functioning {
+    &__button {
+        cursor: pointer;
+        display: flex;
+        flex: 30%;
+        max-width: 30%;
+        align-items: center;
+        margin: 0px auto 30px;
+        padding: 10px 0px;
+        @include tablette {
+            width: 50%;
+            max-width: 50%;
+            padding: 10px 0px 10px 0px;
+        }
+        @include mobile-only {
+            width: 100%;
+            max-width: 100%;
+            padding: 10px 0px 10px 0px;
+        }  
+        border-radius: 20px;
+        background-color: $grey-bkgd;
+        box-shadow: -1px -1px 18px $grey-place-bkgd, 2px 2px 3px $grey-place-bkgd;
+        transform: scale(1);
+        transition: all 400ms;
+        &:hover {
+            background-color: pastel($primary);
+            .functioning__icon--color {color: $primary;}
+            transform: scale(1.02);
+            box-shadow: -3px -3px 6px $grey-place-bkgd, 4px 4px 6px $grey-place-bkgd;    
+        }            
+    }
+}
+
+
+    
+// ***********************************************************************************************
+//                                  BOUTON .heart
+// - dans la section Restaurants (index.html) / <section class="list-menus"> 
+// - dans lapalettedugout.html - lanoteenchantee.html - alafrançaise.html - ledelicedessens.html / 
+// <div class="page__restaurant">
+// ***********************************************************************************************
+
+.heart {
+    position: relative;
+    height: fit-content;
+    cursor: pointer;
+    &:hover {
+        .heart__icon-solid--flyover {
+            transform: scale(0.82);
+        }       
+    }
+    &__icon-solid {
+        z-index: 1;
+        position: absolute;
+        right: 0px;
+        bottom: 3px;
+        font-size: 1.5rem;
+        color: transparent;
+        background-clip: text;
+        background-image: linear-gradient(30deg, $secondary, $primary);
+        transform: scale(0);
+        transform-origin: bottom;
+        transition: transform ease-in-out 500ms;
+    }
+    &__icon {
+        z-index: 5;
+        font-size: 1.5rem; 
+    }
+}

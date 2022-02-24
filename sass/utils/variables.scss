@@ -1,0 +1,36 @@
+// ****************** Breakpoints déclarés dans une MAP (clef1: valeur1, clef2: valeur2); **********************
+
+$breakpoints: (
+    mobile: 768px,
+    tablet: 1024px
+    );
+
+    
+// ****************** Couleurs **********************
+
+$primary: #9356DC;
+$secondary: #FF79DA;
+$tertiary: #99E2D0;
+$grey-bkgd: #f6f6f6;
+$white: white;
+$black: black;
+
+$grey-place-shdw: #c2c2c2;
+$grey-place-bkgd: #eaeaea;
+$grey-box-shdw: #ececec;
+$grey-bkgd: #f6f6f6;
+$grey-icon: #808080;
+$footer: #353535;
+
+
+// ****************** Temps de l'Animation Loader **********************
+
+$duration: 3000ms;
+$delay: 300ms;
+$shake: 8deg;
+
+// ****************** Nombre et temps d'Apparitions des d'items de menus **********************
+
+$choice-duration: 800ms;
+$choice-delay: 300ms;
+$choice-number: 4;

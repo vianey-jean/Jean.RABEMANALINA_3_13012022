@@ -394,7 +394,6 @@ a {
   font-weight: lighter;
   margin-bottom: 22px;
 }
-
 @media screen and (max-width: 768px) {
   .footer__title {
     text-align: start;
@@ -415,13 +414,11 @@ a {
   list-style-type: none;
   padding-left: 0px;
 }
-
 @media screen and (max-width: 1024px) {
   .footer__list {
     margin: 0px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .footer__list {
     -webkit-box-orient: vertical;
@@ -430,7 +427,6 @@ a {
             flex-direction: column;
   }
 }
-
 .footer__item {
   margin-bottom: 8px;
 }
@@ -442,6 +438,194 @@ a {
   width: 25px;
 }
 
+
+
+@-webkit-keyframes back {
+  0% {
+    opacity: 1;
+  }
+  78% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes back {
+  0% {
+    opacity: 1;
+  }
+  78% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes disk {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0) rotate(0deg);
+            transform: scale(0) rotate(0deg);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1) rotate(360deg);
+            transform: scale(1) rotate(360deg);
+  }
+  80% {
+    opacity: 0;
+    -webkit-transform: scale(1) rotate(360deg);
+            transform: scale(1) rotate(360deg);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes disk {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0) rotate(0deg);
+            transform: scale(0) rotate(0deg);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1) rotate(360deg);
+            transform: scale(1) rotate(360deg);
+  }
+  80% {
+    opacity: 0;
+    -webkit-transform: scale(1) rotate(360deg);
+            transform: scale(1) rotate(360deg);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes disktwo {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0) rotate(-0.5turn);
+            transform: scale(0) rotate(-0.5turn);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1) rotate(-1.5turn);
+            transform: scale(1) rotate(-1.5turn);
+  }
+  80% {
+    opacity: 0;
+    -webkit-transform: scale(1) rotate(-1.5turn);
+            transform: scale(1) rotate(-1.5turn);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(-1.5turn);
+            transform: rotate(-1.5turn);
+  }
+}
+@keyframes disktwo {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(0) rotate(-0.5turn);
+            transform: scale(0) rotate(-0.5turn);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1) rotate(-1.5turn);
+            transform: scale(1) rotate(-1.5turn);
+  }
+  80% {
+    opacity: 0;
+    -webkit-transform: scale(1) rotate(-1.5turn);
+            transform: scale(1) rotate(-1.5turn);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(-1.5turn);
+            transform: rotate(-1.5turn);
+  }
+}
+@-webkit-keyframes iconshake {
+  0% {
+    -webkit-transform: scale(0) rotate(0deg);
+            transform: scale(0) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: scale(1) rotate(-172deg);
+            transform: scale(1) rotate(-172deg);
+  }
+  56% {
+    -webkit-transform: scale(1) rotate(-188deg);
+            transform: scale(1) rotate(-188deg);
+  }
+  62% {
+    -webkit-transform: scale(1) rotate(-172deg);
+            transform: scale(1) rotate(-172deg);
+  }
+  68% {
+    -webkit-transform: scale(1) rotate(-188deg);
+            transform: scale(1) rotate(-188deg);
+  }
+  74% {
+    -webkit-transform: scale(1) rotate(-180deg);
+            transform: scale(1) rotate(-180deg);
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    -webkit-transform: scale(1) rotate(-180deg);
+            transform: scale(1) rotate(-180deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes iconshake {
+  0% {
+    -webkit-transform: scale(0) rotate(0deg);
+            transform: scale(0) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: scale(1) rotate(-172deg);
+            transform: scale(1) rotate(-172deg);
+  }
+  56% {
+    -webkit-transform: scale(1) rotate(-188deg);
+            transform: scale(1) rotate(-188deg);
+  }
+  62% {
+    -webkit-transform: scale(1) rotate(-172deg);
+            transform: scale(1) rotate(-172deg);
+  }
+  68% {
+    -webkit-transform: scale(1) rotate(-188deg);
+            transform: scale(1) rotate(-188deg);
+  }
+  74% {
+    -webkit-transform: scale(1) rotate(-180deg);
+            transform: scale(1) rotate(-180deg);
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    -webkit-transform: scale(1) rotate(-180deg);
+            transform: scale(1) rotate(-180deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .gradient {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
@@ -465,7 +649,7 @@ a {
   -webkit-box-shadow: -1px -1px 6px #808080, 2px 2px 3px #808080;
           box-shadow: -1px -1px 6px #808080, 2px 2px 3px #808080;
 }
-/*Fonction du bouton*/
+
 .functioning__button {
   cursor: pointer;
   display: -webkit-box;
@@ -513,7 +697,7 @@ a {
 .functioning__button:hover .functioning__icon--color {
   color: #9356DC;
 }
-/*Animation du coeur*/
+
 .heart {
   position: relative;
   height: -webkit-fit-content;
@@ -944,7 +1128,7 @@ input::placeholder {
   font-size: clamp(1rem, 7vw, 1.65rem);
   margin: 0px;
 }
-/* mise en forme du choix des plats pour que ça ne bouge pas*/
+
 .type {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1034,7 +1218,6 @@ input::placeholder {
   -webkit-animation-delay: 1200ms;
           animation-delay: 1200ms;
 }
-/*Mise a format du choix de plats*/
 .choice__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1052,12 +1235,10 @@ input::placeholder {
 .choice__container:hover .choice__check--rollover {
   margin-right: 0rem;
 }
-/*Rotation du choix*/
 .choice__container:hover .choice__icon--rollover {
   -webkit-transform: rotate(2turn);
           transform: rotate(2turn);
 }
-/*format du texte dans choix du plat*/
 .choice__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1076,7 +1257,6 @@ input::placeholder {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-/*taille du plat avec prix*/
 .choice__precision {
   margin: 5px 0px 0px;
   padding: 0px;
@@ -1085,13 +1265,11 @@ input::placeholder {
   text-overflow: ellipsis;
   overflow: hidden;
 }
-/*emplacement du prix*/
 .choice__price-check {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .choice__price {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1102,7 +1280,6 @@ input::placeholder {
   padding: 0.8rem 1.3rem;
   font-weight: bold;
 }
-/*validation du chois en couleur*/
 .choice__check {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1119,7 +1296,6 @@ input::placeholder {
   -webkit-transition: margin-right 500ms ease-in-out;
   transition: margin-right 500ms ease-in-out;
 }
-/* Rotation et couleur blanc dans la validation du plat choisi*/
 .choice__icon {
   color: white;
   font-size: 1.3rem;
@@ -1150,6 +1326,55 @@ input::placeholder {
     transform: translateY(-9999px);
   }
 }
+
+/*animation slide logo sur les pages plats*/
+@keyframes slide_in_top {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes check_translate {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-67px);
+  }
+}
+@keyframes plat_dimension {
+  0% {
+    width: 437px;
+  }
+  100% {
+    width: 337px;
+  }
+}
+@keyframes check_rotate {
+  0% {
+    transform: rotateZ(0turn);
+  }
+  100% {
+    transform: rotateZ(2turn);
+  }
+}
+@keyframes decalage_plats {
+  10% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
 .loader__home {
   display: flex;
   justify-content: center;
@@ -1166,8 +1391,8 @@ input::placeholder {
 }
 
 .loader {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 .loader div {
   height: 100%;
@@ -1182,20 +1407,7 @@ input::placeholder {
   border-right-color: #ff79da;
 }
 
-
-
-/*animation slide logo sur les pages plats*/
-@keyframes slide_in_top {
-  0% {
-    transform: translateX(-1000px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
+/*animation du navigateur sur les pages plats*/
 header.header__nav .header__title {
   font-size: 6vmin;
   width: 100%;

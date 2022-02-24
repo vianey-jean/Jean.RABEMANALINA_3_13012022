@@ -1,0 +1,40 @@
+.footer {
+    padding: 15px 24px 30px;
+    background-color: $footer;
+    color: $white;
+    &__title {
+        text-align: center;
+        @include mobile-only {
+            text-align: start;
+        }
+        font-family: Shrikhand, Arial, Helvetica, sans-serif;
+        font-size: 130%;
+        font-weight: lighter;
+        margin-bottom: 22px;
+    }
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 15%;
+        list-style-type: none;
+        padding-left: 0px; 
+        @include tablette {
+            margin: 0px;
+        }
+        // Mobile : les items en mode vertical
+        @include mobile-only {
+            flex-direction: column;
+        }
+    }
+    &__item {
+            margin-bottom: 8px;
+    }
+    &__link {
+        color: $white;
+    }
+    &__icon {        
+        font-size: 80%;
+        width: 25px;
+    }
+}

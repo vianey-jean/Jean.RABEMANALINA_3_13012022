@@ -1,0 +1,43 @@
+.header {
+    max-width: 1920px;
+    background-color: $white;
+    position: relative;
+    &__icon {
+        font-size: clamp(0.5rem, 11vw, 1.2rem);
+        position: absolute;
+        left: 20px;
+        top: 18px;
+    }
+    &__title {
+        margin: 0px;
+        padding: 0.6rem;
+        font-family: Shrikhand, Arial, Helvetica, sans-serif;
+        // Adaptation de la taille du titre quand la largeur de la page en mobile devient inférieure à la taill originale du titre
+        font-size: clamp(0.5rem, 11vw, 2rem);
+        text-align: center;
+    }
+    
+}
+
+/*animation slide logo sur les pages plats*/
+@keyframes slide_in_top {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+header.header__nav .header__title {
+  font-size: 6vmin;
+  width: 100%;
+  text-align: center;
+  font-family: "Shrikhand", cursive;
+  color: #000;
+  background-color: #fff;
+  line-height: auto;
+  animation: slide_in_top 2s ease-out both;
+}
