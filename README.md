@@ -14,7 +14,7 @@ Prémier Branche est: MAIN {</br>
                                    - Ajout animation sur header sur css et ajout header dans html avec nouvelle class;<br>
                                    }<br>
 --------> Plusieurs commits pour ameliorer et corriger les bug.<br>
- Quatrième Branche ets : SassLoader: {<br>
+ Quatrième Branche ets : Sass: {<br>
                                       - Refonte de tous le css avec le SASS;<br>
                                       ]<br>
  --------> Plusieurs commits pour ameliorer et corriger les bug.<br>
