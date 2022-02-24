@@ -1379,8 +1379,8 @@ input::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: 0;
-  flex-direction: 0;
+  flex-wrap: nowrap;
+  flex-direction: row;
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -1415,6 +1415,6 @@ header.header__nav .header__title {
   font-family: "Shrikhand", cursive;
   color: #000;
   background-color: #fff;
-  line-height: auto;
+  line-height: normal;
   animation: slide_in_top 2s ease-out both;
 }
