@@ -1,3 +1,5 @@
+/*Début header*/
+
 .header {
     max-width: 1920px;
     background-color: $white;
@@ -19,25 +21,3 @@
     
 }
 
-/*animation slide logo sur les pages plats*/
-@keyframes slide_in_top {
-  0% {
-    transform: translateX(-1000px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-header.header__nav .header__title {
-  font-size: 6vmin;
-  width: 100%;
-  text-align: center;
-  font-family: "Shrikhand", cursive;
-  color: #000;
-  background-color: #fff;
-  line-height: auto;
-  animation: slide_in_top 2s ease-out both;
-}

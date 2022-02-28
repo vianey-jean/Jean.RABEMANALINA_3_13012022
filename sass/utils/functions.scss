@@ -1,7 +1,7 @@
 //*********************************
 // Eclaircissement de la couleur 
 //*********************************
-
+/*Début Fonctions*/
 @function pastel ($clr) {
     $hue: hue($clr);
     $sat: 100%;

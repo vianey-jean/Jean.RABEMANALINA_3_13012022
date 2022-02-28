@@ -1,11 +1,20 @@
-@import "utils/variables";
-@import "utils/mixins";
-@import "utils/functions";
-@import "vendors/normalize";
-@import "fonts/fonts";
-@import "body/header";
-@import "body/footer";
-@import "anim/loader";
-@import "anim/buttons";
-@import "pages/index";
-@import "pages/plats";
+
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/functions";
+
+@import "./vendors/normalize";
+
+@import "./fonts/fonts";
+
+@import "./body/header";
+@import "./body/footer";
+
+
+@import "./anim/buttons";
+
+@import "./pages/index";
+@import "./pages/plats";
+
+
+@import "./anim/loader";

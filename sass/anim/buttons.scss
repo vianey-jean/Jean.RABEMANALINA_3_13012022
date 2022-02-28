@@ -4,7 +4,194 @@
 // - dans lapalettedugout.html - lanoteenchantee.html - alafrançaise.html - ledelicedessens.html :
 // "Commander" : 
 // ***********************************************************************************************
+/*Début button*/
 
+@-webkit-keyframes back {
+    0% {
+      opacity: 1;
+    }
+    78% {
+      opacity: 1;
+    }
+    99% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes back {
+    0% {
+      opacity: 1;
+    }
+    78% {
+      opacity: 1;
+    }
+    99% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes disk {
+    0% {
+      opacity: 1;
+      -webkit-transform: scale(0) rotate(0deg);
+              transform: scale(0) rotate(0deg);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: scale(1) rotate(360deg);
+              transform: scale(1) rotate(360deg);
+    }
+    80% {
+      opacity: 0;
+      -webkit-transform: scale(1) rotate(360deg);
+              transform: scale(1) rotate(360deg);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes disk {
+    0% {
+      opacity: 1;
+      -webkit-transform: scale(0) rotate(0deg);
+              transform: scale(0) rotate(0deg);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: scale(1) rotate(360deg);
+              transform: scale(1) rotate(360deg);
+    }
+    80% {
+      opacity: 0;
+      -webkit-transform: scale(1) rotate(360deg);
+              transform: scale(1) rotate(360deg);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes disktwo {
+    0% {
+      opacity: 1;
+      -webkit-transform: scale(0) rotate(-0.5turn);
+              transform: scale(0) rotate(-0.5turn);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: scale(1) rotate(-1.5turn);
+              transform: scale(1) rotate(-1.5turn);
+    }
+    80% {
+      opacity: 0;
+      -webkit-transform: scale(1) rotate(-1.5turn);
+              transform: scale(1) rotate(-1.5turn);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: rotate(-1.5turn);
+              transform: rotate(-1.5turn);
+    }
+  }
+  @keyframes disktwo {
+    0% {
+      opacity: 1;
+      -webkit-transform: scale(0) rotate(-0.5turn);
+              transform: scale(0) rotate(-0.5turn);
+    }
+    60% {
+      opacity: 1;
+      -webkit-transform: scale(1) rotate(-1.5turn);
+              transform: scale(1) rotate(-1.5turn);
+    }
+    80% {
+      opacity: 0;
+      -webkit-transform: scale(1) rotate(-1.5turn);
+              transform: scale(1) rotate(-1.5turn);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: rotate(-1.5turn);
+              transform: rotate(-1.5turn);
+    }
+  }
+  @-webkit-keyframes iconshake {
+    0% {
+      -webkit-transform: scale(0) rotate(0deg);
+              transform: scale(0) rotate(0deg);
+    }
+    50% {
+      -webkit-transform: scale(1) rotate(-172deg);
+              transform: scale(1) rotate(-172deg);
+    }
+    56% {
+      -webkit-transform: scale(1) rotate(-188deg);
+              transform: scale(1) rotate(-188deg);
+    }
+    62% {
+      -webkit-transform: scale(1) rotate(-172deg);
+              transform: scale(1) rotate(-172deg);
+    }
+    68% {
+      -webkit-transform: scale(1) rotate(-188deg);
+              transform: scale(1) rotate(-188deg);
+    }
+    74% {
+      -webkit-transform: scale(1) rotate(-180deg);
+              transform: scale(1) rotate(-180deg);
+      opacity: 1;
+    }
+    80% {
+      opacity: 0;
+      -webkit-transform: scale(1) rotate(-180deg);
+              transform: scale(1) rotate(-180deg);
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes iconshake {
+    0% {
+      -webkit-transform: scale(0) rotate(0deg);
+              transform: scale(0) rotate(0deg);
+    }
+    50% {
+      -webkit-transform: scale(1) rotate(-172deg);
+              transform: scale(1) rotate(-172deg);
+    }
+    56% {
+      -webkit-transform: scale(1) rotate(-188deg);
+              transform: scale(1) rotate(-188deg);
+    }
+    62% {
+      -webkit-transform: scale(1) rotate(-172deg);
+              transform: scale(1) rotate(-172deg);
+    }
+    68% {
+      -webkit-transform: scale(1) rotate(-188deg);
+              transform: scale(1) rotate(-188deg);
+    }
+    74% {
+      -webkit-transform: scale(1) rotate(-180deg);
+              transform: scale(1) rotate(-180deg);
+      opacity: 1;
+    }
+    80% {
+      opacity: 0;
+      -webkit-transform: scale(1) rotate(-180deg);
+              transform: scale(1) rotate(-180deg);
+    }
+    100% {
+      opacity: 0;
+    }
+  }
 .gradient {  
         box-sizing: content-box;      
         padding: 15px;
